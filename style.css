@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  background-color: rgb(206, 206, 220);
+  height: 100vh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 100%;
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: rgb(208, 139, 162);
+}
+.left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.paragraph {
+  background-color: rgb(226, 223, 218);
+  height: 100%;
+  text-align: center;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h4 {
+  padding: 2rem 3rem;
+  font-size: medium;
+}
+.left img {
+  height: 20rem;
+  width: 32rem;
+  object-fit: cover;
+}
+.btn {
+  padding: 0.8rem 3rem;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.right {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  height: 80px;
+}
+h4 {
+  font-size: 28px;
+  align-items: center;
+}
+
+hr {
+  border-color: black;
+}
+.right h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.right p {
+  margin: 20px 0;
+  line-height: 1.6;
+  /* max-width: 500px; */
+}
+.button {
+  display: flex;
+  gap: 3rem;
+}
+.button button {
+  padding: 0.8rem 3rem;
+  background-color: transparent;
+}
+.button button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.iconss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 13px;
+}
